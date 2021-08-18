@@ -14,8 +14,8 @@ public class Human01 {
 	
 	// 引数2つのコンストラクタを定義
 	public Human01(String name, int age) {
-		this.name = "山田"; // this変数(自分自身のインスタンスを指す変数を扱う)
-		this.age = 20;
+		this.name = name; // this変数(自分自身のインスタンスを指す変数を扱う)
+		this.age = age;
 	}
 }
 

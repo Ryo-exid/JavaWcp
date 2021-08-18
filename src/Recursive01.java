@@ -1,4 +1,4 @@
-//再帰処理
+
 public class Recursive01 {
 	public static void main(String[] args) {
 	    int number = 1;
@@ -15,3 +15,5 @@ public class Recursive01 {
 	    return number;
 	  }
 }
+
+// 再帰処理（あるメソッドが自分自身を呼び出すことで繰り返しを実現する）

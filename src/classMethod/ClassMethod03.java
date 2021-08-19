@@ -10,7 +10,7 @@ public class ClassMethod03 {
 		String profile = setoguchi.getProfile(); // インスタンス.メソッドを変数に代入
 		System.out.println(profile + "です。");
 		
-		setoguchi.greet("Nissy"); // インスタンス.メソッド("引数")
+		setoguchi.greet("Nissy"); // インスタンス.メソッド("引数");
 		setoguchi.greet(null);
 	}
 }

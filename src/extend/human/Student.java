@@ -14,3 +14,10 @@ public class Student extends Human {
 		return profile;
 	}
 }
+
+
+// 継承するクラスの基本構文
+
+// 修飾子 class クラス名 extends スーパークラス名 {
+//     // サブクラスの処理
+// }

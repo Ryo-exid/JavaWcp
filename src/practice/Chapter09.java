@@ -7,7 +7,7 @@ public class Chapter09 {
         // 残量（L）
         double fuelAmount = 55.0;
         
-        Car car = new Car(fuelCost, fuelAmount);
+        Car car = new Car(fuelCost, fuelAmount); // インスタンスを生成
         
         car.move(20);
         System.out.println("残量は、" + car.getFuelAmount() + "です");

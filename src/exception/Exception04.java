@@ -25,3 +25,10 @@ public class Exception04 {
         System.out.println(fileName + "の読み込み完了");
     }
 }
+
+
+// throws文（例外をスローして呼び出し元に例外処理させたい場合に使用）の基本構文
+
+// 修飾子 戻り値の型 メソッド名(引数) throws 例外クラスの型 {
+//     return 戻り値; // 処理
+// }

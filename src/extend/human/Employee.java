@@ -13,5 +13,4 @@ public class Employee extends Human {
 		profile += "サラリーマンで、部署は" + this.department + "です。";
 		return profile;
 	}
-	
 }

@@ -13,12 +13,12 @@ public class Extend01 {
 		System.out.println("Humanクラスのメソッド：名前は、" + ikeda.getName()); // サブクラスのインスタンスからスーパークラス（Humanクラス）のメソッドを呼び出し
 		System.out.println("Studentクラスのメソッド：プロフィールを紹介します。" + ikeda.getStudentProfile()); // Studentクラスに追加したgetStudentProfileメソッドを呼び出し
 		
-		Human human = new Employee("篠原", 28, "システム部"); // Employeeクラスのインスタンスを生成して、アップキャストでHumanクラスの変数に代入
-		System.out.println("Humanクラスのメソッド：名前は、" + human.getName()); // スーパークラス（Humanクラス）のメソッドを呼び出し
+		Human woman = new Employee("篠原", 28, "システム部"); // Employeeクラスのインスタンスを生成して、アップキャストでHumanクラスの変数に代入
+		System.out.println("Humanクラスのメソッド：名前は、" + woman.getName()); // スーパークラス（Humanクラス）のメソッドを呼び出し
 		
 		// Humanクラスには、getEmployeeProfileメソッドがないのでアクセスするとコンパイルエラー
 		// System.out.println("Employeeクラスのメソッド：" + human.getEmployeeProfile());
-		Employee shinohara = (Employee) human; // ダウンキャスト（スーパークラスからサブクラスに代入すること）は明示的に記述しなければならない。
+		Employee shinohara = (Employee) woman; // ダウンキャスト（スーパークラスからサブクラスに代入すること）は明示的に記述しなければならない。
 		System.out.println("Employeeクラスのメソッド：プロフィールを紹介します。" + shinohara.getEmployeeProfile());
 		
 		// printNameメソッドを呼び出して、名前を表示

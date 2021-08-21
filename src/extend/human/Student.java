@@ -9,7 +9,7 @@ public class Student extends Human {
 	}
 	
 	public String getStudentProfile() {
-		String profile = "年齢は" + super.age + "歳です。";
+		String profile = "年齢は" + super.age + "歳です。"; // super.フィールドは親インスタンスのフィールドを参照
 		profile += "学生で、テストの点数は" + this.score + "点です。";
 		return profile;
 	}

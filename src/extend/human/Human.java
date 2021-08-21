@@ -1,7 +1,7 @@
 package extend.human;
 
 public class Human {
-	private String name;
+	private String name; // privateは自分自身からのみアクセス可能
 	protected int age;
 	
 	// コンストラクタ

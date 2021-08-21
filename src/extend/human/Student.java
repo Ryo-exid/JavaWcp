@@ -1,13 +1,16 @@
 package extend.human;
 
+//Humanクラスを継承したStudentクラス
 public class Student extends Human {
-	private int score;
+	private int score; // サブクラスで追加したフィールド
 	
+	// コンストラクタ
 	public Student(String name, int age, int score) {
 		super(name, age); // 最初にスーパークラスのコンストラクタを呼び出す
 		this.score = score;
 	}
 	
+	// サブクラスで追加したメソッド
 	public String getStudentProfile() {
 		String profile = "年齢は" + super.age + "歳です。"; // super.フィールドは親インスタンスのフィールドを参照
 		profile += "学生で、テストの点数は" + this.score + "点です。";

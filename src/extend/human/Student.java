@@ -21,3 +21,17 @@ public class Student extends Human {
 // 修飾子 class クラス名 extends スーパークラス名 {
 //     // サブクラスの処理
 // }
+
+
+
+// --------------------------------------------
+
+// final修飾子が指定されたクラスは継承が禁止
+
+// final修飾子を指定
+// final public class Human {
+// }
+
+//Humanが継承禁止のため、コンパイルエラー
+// final public class Employee extends Human {
+// }

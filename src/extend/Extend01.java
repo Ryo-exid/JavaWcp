@@ -16,7 +16,7 @@ public class Extend01 {
 		Human human = new Employee("篠原", 28, "システム部");
 		System.out.println("Humanクラスのメソッド：名前は、" + human.getName());
 		
-		Employee shinohara = (Employee) human;
+		Employee shinohara = (Employee) human; // ダウンキャスト（スーパークラスからサブクラスに代入すること）は明示的に記述しなければならない。
 		System.out.println("Employeeクラスのメソッド：プロフィールを紹介します。" + shinohara.getEmployeeProfile());
 		
 		Extend01.printName(setoguchi);
@@ -28,3 +28,12 @@ public class Extend01 {
 		System.out.println("Humanクラスのメソッド：名前は、" + human.getName());
 	}
 }
+
+
+// アップキャスト（サブクラスのインスタンスをスーパークラスの変数に代入すること）、ダウンキャスト
+
+// SubClass subclass = new SubClass();
+// アップキャスト
+// SuperClass upCastClass = subclass;
+// ダウンキャスト
+// SubClass downCastClass = (SubClass) upCastClass;

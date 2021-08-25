@@ -9,7 +9,7 @@ public abstract class Animal {
 		System.out.println(name + "が食事をしました！");
 	}
 	
-	// サブクラスごとに違う処理は、抽象メソッドにしてサブクラスに実装させる
+	// 抽象メソッド  ※サブクラスごとに違う処理は、抽象メソッドにしてサブクラスに実装させる
 	public abstract void cry();
 }
 

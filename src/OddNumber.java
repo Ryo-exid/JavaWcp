@@ -1,5 +1,5 @@
 
-public class Odd_Number {
+public class OddNumber {
 	public static void main(String[] args) {
 		// 0〜100までの繰り返し
 		for (int i = 0; i <= 100; i++) {

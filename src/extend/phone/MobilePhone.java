@@ -15,3 +15,9 @@ public class MobilePhone implements Phone, Camera {
 		System.out.println(this.number + " から " + number + " に電話をかけます。");
 	}
 }
+
+// クラスによるインターフェース実装の基本構文
+
+// 修飾子 class クラス名 implements インターフェース名, インターフェース名 {
+//     // インターフェースを実装したメソッドなど
+// }

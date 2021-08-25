@@ -13,12 +13,3 @@ public class Abstract01 {
         // Animal animal = new Animal();
 	}
 }
-
-
-// 基本構文
-
-// 抽象クラスの宣言
-// アクセス修飾子 abstract class クラス名 {
-//     // 抽象クラスの基本構文
-//     アクセス修飾子 abstract 戻り値の型 メソッド名(引数);
-// }

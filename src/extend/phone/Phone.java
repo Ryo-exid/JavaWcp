@@ -1,8 +1,10 @@
 package extend.phone;
 
+// Phoneインターフェースの宣言
 public interface Phone {
-	int MAX_NUMBER_DIGITS = 11;
+	int MAX_NUMBER_DIGITS = 11; // フィールドの宣言（定数）
 	
+	// public abstractが自動で追加される（抽象メソッド）
 	public void call(String number);
 }
 

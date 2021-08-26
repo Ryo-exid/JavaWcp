@@ -10,3 +10,5 @@ public class Interface02 {
 		mobilePhone.powerOff();
 	}
 }
+
+// defaultメソッド（Java8から導入された機能で、インターフェース内にデフォルトの処理を実装したメソッドを定義するための機能）

@@ -9,7 +9,7 @@ public class Human {
 		this.age = age;
 	}
 	
-	// final修飾子（一度しか値を代入できない）
+	// final修飾子（一度しか値を代入できない）オーバーライド禁止
 	final public String getName() {
 		return this.name;
 	}

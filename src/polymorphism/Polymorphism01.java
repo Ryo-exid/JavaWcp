@@ -13,3 +13,5 @@ public class Polymorphism01 {
 		System.out.println("Humanクラスのメソッド：プロフィールを紹介します。" + human2.getProfile());
 	}
 }
+
+// ポリモーフィズムとは，同じクラスを継承した別々のクラスのオブジェクトの同じメソッドを呼び出した時に、それぞれのオブジェクトの振る舞い（処理）を変えること

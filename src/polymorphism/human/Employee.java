@@ -8,6 +8,8 @@ public class Employee extends Human {
 		this.department = department;
 	}
 	
+	// オーバーライドして、Employeeクラス用に処理を変更
+	@Override
 	public String getProfile() {
 		String profile = "年齢は" + this.age + "です。";
 		profile += "サラリーマンで、部署は" + this.department + "です。";

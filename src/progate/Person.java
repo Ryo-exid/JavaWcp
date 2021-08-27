@@ -11,9 +11,16 @@ public class Person {
 		}
 		System.out.println("身長は" + height + "です。");
 		System.out.println("体重は" + weight + "です。");
+		
+		double bmi = bmi(height, weight);
+		System.out.println("BMIは" + Math.round(bmi) + "です。");
 	}
 	
 	public static String fullName(String firstName, String lastName) {
 		return firstName + " " + lastName;
+	}
+	
+	public static double bmi(double height, double weight) {
+		return weight / height / height;
 	}
 }

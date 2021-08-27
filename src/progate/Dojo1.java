@@ -11,6 +11,8 @@ public class Dojo1 {
 		
 		int maxAge = 0; // 最高年齢を管理する変数
 		
+		int totalAge = 0; // 年齢の合計を管理する変数
+		
 		for (int i = 1; i <= persons; i++) {
 			System.out.println(i + "人目");
 			System.out.print("名前：");
@@ -27,6 +29,8 @@ public class Dojo1 {
 				maxAge = age;
 			}
 			
+			totalAge += age; // 繰り返し処理の中でtotalAgeに年齢を足していく
+			
 			System.out.print("身長(m)：");
 			double height = scanner.nextDouble();
 			
@@ -34,8 +38,9 @@ public class Dojo1 {
 			double weight = scanner.nextDouble();
 			
 			Person.printData(firstName, lastName, age, height, weight);
-			
-			System.out.println("最高年齢は" + maxAge + "歳です。");
 		}
+		
+		System.out.println("最高年齢は" + maxAge + "歳です。");	
+		System.out.println("平均年齢は" + totalAge / persons + "歳です"); // 年齢の合計から平均年齢を求め、表示する
 	}
 }

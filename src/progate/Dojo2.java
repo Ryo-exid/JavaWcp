@@ -13,5 +13,10 @@ public class Dojo2 {
 		System.out.print("走る距離を入力してください：");
 		int bicycleDistance = scanner.nextInt();
 		bicycle.run(bicycleDistance);
+		
+		System.out.println("=================");
+		Car car = new Car("フェラーリ", "赤");
+		System.out.println("【車の情報】");
+		car.printData();
 	}
 }

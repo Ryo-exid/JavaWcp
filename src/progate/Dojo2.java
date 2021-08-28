@@ -18,5 +18,9 @@ public class Dojo2 {
 		Car car = new Car("フェラーリ", "赤");
 		System.out.println("【車の情報】");
 		car.printData();
+		System.out.println("-----------------");
+		System.out.print("走る距離を入力してください：");
+		int carDistance = scanner.nextInt();
+		car.run(carDistance);
 	}
 }

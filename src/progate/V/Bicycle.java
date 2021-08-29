@@ -1,5 +1,5 @@
 package progate.V;
 
-public class Bicycle {
-
+public class Bicycle extends Vehicle {
+	
 }

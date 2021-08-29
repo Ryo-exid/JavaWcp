@@ -7,6 +7,11 @@ public class Car extends Vehicle {
 		return this.fuel;
 	}
 	
+	public void printData() {
+		super.printData(); // スーパークラスとの重複部分
+		System.out.println("ガソリン量：" + this.getFuel() + "L");
+	}
+	
 	// Carクラス独自のメソッド
 	public void charge(int litre) {
 	    System.out.println(litre + "L給油します");

@@ -4,7 +4,7 @@ package progate.V;
 public class Vehicle {
 	private String name;
 	private String color;
-	private int distance;
+	protected int distance; // サブクラスからもアクセスできるようにする
 	
 	// コンストラクタ
 	Vehicle(String name, String color) {

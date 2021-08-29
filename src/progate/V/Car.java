@@ -17,6 +17,7 @@ public class Car extends Vehicle {
 		System.out.println("ガソリン量：" + this.getFuel() + "L");
 	}
 	
+	// スーパークラス（Vehicle.java）でdistanceフィールドをprotectedにしているためアクセス可能
 	public void run(int distance) {
 		System.out.println(distance + "km走ります");
 		if (distance <= this.fuel) {

@@ -1,7 +1,7 @@
 package progate.V;
 
-// CarとBicycleの共通処理を記述
-public class Vehicle {
+abstract public class Vehicle { // 抽象メソッドを1つでも持つクラスは「抽象クラス」と呼ばれ、クラス名の前にabstractをつける
+	// CarとBicycleの共通処理を記述
 	private String name;
 	private String color;
 	protected int distance; // サブクラスからもアクセスできるようにする
@@ -37,4 +37,8 @@ public class Vehicle {
 		System.out.println("色：" + this.color);
 		System.out.println("走行距離：" + this.distance + "km");
 	}
+	
+	// 抽象メソッドrunを定義（乗り物は全て「走行する」という機能を持つが、乗り物ごとに走行方法が違う（処理内容を定めることができない）ため、処理内容を書かない抽象メソッドとして定義）
+	// 抽象メソッドなので、サブクラスでオーバーライド（上書き）しなければならない  ※上書きしないとエラーになる
+	abstract public void run(int distance);
 }

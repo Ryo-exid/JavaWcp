@@ -3,6 +3,11 @@ package progate.V;
 public class Car extends Vehicle {
 	private int fuel = 50; // Carクラスの独自のフィールドを追加
 	
+	// コンストラクタ
+	Car(String name, String color) {
+		super(name, color); // スーパークラスのコンストラクタを呼び出す
+	}
+	
 	public int getFuel() {
 		return this.fuel;
 	}

@@ -5,6 +5,7 @@ abstract public class Vehicle { // 抽象メソッドを1つでも持つクラ�
 	private String name;
 	private String color;
 	protected int distance; // サブクラスからもアクセスできるようにする
+	private Person owner; // 人が乗り物を所有できるよう、Person型のOwnerフィールドを追加
 	
 	// コンストラクタ
 	Vehicle(String name, String color) {
@@ -24,12 +25,22 @@ abstract public class Vehicle { // 抽象メソッドを1つでも持つクラ�
 		return this.distance = distance;
 	}
 	
+	// ownerフィールドのゲッター
+	public Person getOwner() {
+		return this.owner;
+	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
 	
 	public void setColor(String color) {
 		this.color = color;
+	}
+	
+	// ownerフィールドのセッター（仮引数はperson）
+	public void setOwner(Person person) {
+		this.owner = person;
 	}
 	
 	public void printData() {

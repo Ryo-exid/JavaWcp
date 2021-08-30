@@ -41,13 +41,8 @@ public class Person {
 	    return this.weight / this.height / this.height;
 	}
 	
-	// car型の引数を受け取るbuyメソッド
-	public void buy(Car car) {
-		car.setOwner(this);
-	}
-	
-	// bicycle型の引数を受け取るbuyメソッド
-	public void buy(Bicycle bicycle) {
-		bicycle.setOwner(this);
+	// Vehicle型の引数を受け取るbuyメソッド（Car型もBicycle型も受け取ることができる）
+	public void buy(Vehicle vehicle) {
+		vehicle.setOwner(this);
 	}
 }

@@ -10,10 +10,16 @@ public class ProgateV {
 		Scanner scanner = new Scanner(System.in);
 		Car car = new Car("フェラーリ", "赤");	
 		
+		// buyメソッドを用いて、person1にcarを購入させる
+		person1.buy(car);
+		
 		// carの所有者をperson1に設定
 		car.setOwner(person1);
 		
 		Bicycle bicycle = new Bicycle("ビアンキ", "緑");
+		
+		// buyメソッドを用いて、person2にbicycleを購入させる
+		person2.buy(bicycle);
 		
 		// bicycleの所有者をperson2に設定
 		bicycle.setOwner(person2);

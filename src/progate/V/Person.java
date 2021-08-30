@@ -40,4 +40,14 @@ public class Person {
 	public double bmi() {
 	    return this.weight / this.height / this.height;
 	}
+	
+	// car型の引数を受け取るbuyメソッド
+	public void buy(Car car) {
+		car.setOwner(this);
+	}
+	
+	// bicycle型の引数を受け取るbuyメソッド
+	public void buy(Bicycle bicycle) {
+		bicycle.setOwner(this);
+	}
 }

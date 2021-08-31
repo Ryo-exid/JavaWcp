@@ -12,9 +12,9 @@ public class Chapter15_1 {
 		// b(余り)が0になった時のaが最大公約数
 		if (b == 0) {
 			return a;
-		}
-		// 再帰呼び出し
-		return gcd(b, a % b);
+		}		
+		// 余りが0で無い場合は下記の処理を行い、余りが0になれば上記処理が実行される		
+		return gcd(b, a % b); // 再帰呼び出し
 	}
 }
 

@@ -1,5 +1,7 @@
 //再帰（再帰呼び出し、再帰処理）とは、あるメソッドの中から自分自身のメソッドを呼び出す処理のこと。
 
+package practice;
+
 public class Chapter15_1 {
 	public static void main(String[] args) {
 		int a = 976;

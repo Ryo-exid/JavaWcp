@@ -1,7 +1,7 @@
 package inner_class_sample;
 
 public class Outer {
-	// 外部クラスに定義したフィールドgreeting
+	// 外部クラスに定義したフィールドgreeting  ※フィールドがstaticの場合、内部クラスもstaticでないとコンパイルエラーになる
 	private String greeting = "こんにちは";
 	
 	public class Inner {

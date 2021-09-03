@@ -50,3 +50,13 @@ public class List01 {
 		System.out.println(list2); // 実行結果 [1, 2, 3]
 	}
 }
+
+// ArrayListとLinkedListのそれぞれ特徴（例）
+
+// ・インデックス指定で要素を取り出すのはArrayListの方が速い
+// ・先頭から順に処理をするのはArrayListの方が速い
+// ・要素の挿入はLinkedListの方が速い
+// ・要素の削除はLinkedListの方が速い
+
+// など。状況に応じ使い分けることが大事。
+

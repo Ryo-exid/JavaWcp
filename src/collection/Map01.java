@@ -39,8 +39,8 @@ public class Map01 {
 		// キーと値を指定して要素を削除する
 		map1.remove(3, "もも");
 		
-		
 		System.out.println(map1); // 実行結果 {1=いちご, 2=めろん}
+		
 		
 		// TreeMapを生成する場合
 		Map<String, String> map2 = new TreeMap<String, String>();

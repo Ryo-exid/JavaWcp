@@ -15,6 +15,11 @@ public class EnumPractice01 {
 		System.out.println(Dessert.APPLE.ordinal());
 		System.out.println(Dessert.ICE_CREAM.ordinal());
 		System.out.println(Dessert.CAKE.ordinal());
+		
+		// 定義した値段を取得するメソッドでの呼び出し
+		System.out.println(Dessert.APPLE.getPrice());
+		System.out.println(Dessert.ICE_CREAM.getPrice());
+		System.out.println(Dessert.CAKE.getPrice());
 	}
 }
 

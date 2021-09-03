@@ -20,6 +20,12 @@ public class EnumPractice01 {
 		System.out.println(Dessert.APPLE.getPrice());
 		System.out.println(Dessert.ICE_CREAM.getPrice());
 		System.out.println(Dessert.CAKE.getPrice());
+		
+		
+		// インスタンスごとに実装したメソッドを実行
+		Food.FRENCH_FRIES.advertise();
+		Food.BURGER.advertise();
+		Food.NUGGET.advertise();
 	}
 }
 

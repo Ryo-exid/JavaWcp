@@ -10,6 +10,11 @@ public class EnumPractice01 {
 		
 		// 列挙した定数名そのものをString型で返すメソッドname() ※列挙型のメソッド
 		System.out.println(Dessert.APPLE.name());
+		
+		// 列強した順序をint型で返すメソッドordinal()  ※（0スタート）
+		System.out.println(Dessert.APPLE.ordinal());
+		System.out.println(Dessert.ICE_CREAM.ordinal());
+		System.out.println(Dessert.CAKE.ordinal());
 	}
 }
 

@@ -5,7 +5,9 @@ import java.util.List;
 
 public class Chapter14 {
 	public static void main(String[] args) {
-		List<Character> party = new ArrayList<Character>();
+		List<Character> party = new ArrayList<Character>(); // List型の「party」変数を生成
+		
+		// add」メソッドで「Soldier」と「Playboy」のインスタンスを追加
 		party.add(new Soldier());
 		party.add(new PlayBoy());
 		

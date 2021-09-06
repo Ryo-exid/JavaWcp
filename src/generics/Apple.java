@@ -1,6 +1,6 @@
 package generics;
 
-public class Apple {
+class Apple {
 	private String name;
 	
 	Apple(String name) {

@@ -1,6 +1,6 @@
 package generics;
 
-public class Peach {
+class Peach {
 	private String name;
 	
 	Peach(String name) {

@@ -1,6 +1,6 @@
 package generics;
 
-public class Basket<E> {
+class Basket<E> {
 	private E elem;
 	
 	Basket(E e) {

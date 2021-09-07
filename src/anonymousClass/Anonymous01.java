@@ -1,5 +1,8 @@
 package anonymousClass;
 
+// 無名クラスは、システム内で一度しか使わないような処理を実装するケースに向いている
+// 何度も使うような処理なら無名クラスを使わず、やはりクラスとして定義して共通化すべき
+
 public class Anonymous01 {
 	public static void main(String[] args) {
 		// 通常の実行

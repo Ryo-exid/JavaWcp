@@ -21,3 +21,8 @@ public class Stream02 {
 		    .forEach(System.out::println); // 標準出力（終端操作）
 	}
 };
+
+// filter: 要素を条件で絞り込む
+// map: 要素を変換する
+// sorted: 要素を並び替える
+// forEach: 各要素に対し順に処理する

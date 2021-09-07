@@ -15,5 +15,15 @@ public class Anonymous01 {
 			}
 		};
 		System.out.println(b.hello());
+		
+		
+		// インターフェイスを実装する無名クラス（ごく局所的に使われるだけのクラスを、わざわざ1ファイルとして実装するのは手間 = 無名クラスで実装）
+		B bb = new B() {
+			@Override
+			public String greeting() {
+				return "Good morning!";
+			}
+		};
+		System.out.println(bb.greeting());
 	}
 }

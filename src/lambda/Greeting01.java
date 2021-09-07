@@ -1,7 +1,7 @@
 package lambda;
 
 @FunctionalInterface  // 関数型インターフェースであると明示（明示的にアノテーションを付けておくことによって、不用意にメソッドを増やされてしまうのを防ぐ）
-public interface Greeting {
+public interface Greeting01 {
 	public String hello(); // 抽象メソッド1つのみ
 }
 
